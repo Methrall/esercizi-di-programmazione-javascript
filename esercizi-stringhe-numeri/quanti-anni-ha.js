@@ -11,3 +11,10 @@
 
   http://www.imparareaprogrammare.it
 */
+
+
+var year = 2023;
+var born = 1989;
+var old = year - born;
+console.log ('età = ' + old);
+console.log('anni mancanti = ' + (100 - old));

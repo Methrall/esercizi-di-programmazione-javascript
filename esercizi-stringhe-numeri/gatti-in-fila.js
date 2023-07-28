@@ -17,3 +17,9 @@
 
   http://www.imparareaprogrammare.it
 */
+
+
+var cats = 44;
+var catsinline = 3;
+console.log('numero di file ' + Math.floor(cats/catsinline));
+console.log('gatti mancanti ' + cats%catsinline);
