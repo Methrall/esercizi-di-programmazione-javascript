@@ -14,7 +14,7 @@
 */
 
 
-var s = 7200; 
+var s = 12560;
 var m = (s/60);
 var o = (s/3600);
-console.log(o + ' ore', m + ' minuti', s + ' secondi');
+console.log(Math.floor(o) + ' ore', Math.floor(m) + ' minuti', Math.floor(s) + ' secondi');
